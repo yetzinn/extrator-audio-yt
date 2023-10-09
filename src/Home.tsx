@@ -112,7 +112,7 @@ const Home = () => {
                                 {isData.streamingDetails[0].contentLength}
                             </p>
                             {isData.streamingDetails.length > 0 && (
-                                <div className="relative mt-[-70px]">
+                                <div className="relative mt-[-60px]">
                                     <video controls>
                                         <source
                                             src={isData.streamingDetails[0].url}
