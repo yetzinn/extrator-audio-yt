@@ -12,7 +12,6 @@ interface VideoDetails {
 interface StreamingDetail {
     url: string;
     contentLength: string;
-    quality: string;
 }
 
 interface ApiData {
