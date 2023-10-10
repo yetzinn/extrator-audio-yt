@@ -48,7 +48,7 @@ const Home = () => {
         setIsFetching(true);
         try {
             const response = await axios.get(
-                `https://danilomodz-youtube-data-extractor-api.onrender.com/?url=${url}`,
+                `https://youtube-data-extractor-api.onrender.com/?url=${url}`,
                 {
                     timeout: 1000 * 20,
                 }
@@ -67,7 +67,7 @@ const Home = () => {
     return (
         <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center py-8 md:py-28">
             <div className="max-w-screen-lg m-auto flex flex-col items-center">
-                <h1 className="text-white font-bold text-2xl md:text-5xl text-center mb-6 md:mb-10">
+                <h1 className="text-white font-bold text-2xl md:text-5xl text-center mb-6 md:mb-10 p-10 md:p-0">
                     Maneira simples e sem anúncios para baixar áudio de vídeos
                     do YouTube!
                 </h1>
