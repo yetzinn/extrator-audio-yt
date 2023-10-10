@@ -48,7 +48,7 @@ const Home = () => {
         setIsFetching(true);
         try {
             const response = await axios.get(
-                `https://youtube-data-extractor-api.onrender.com/?url=${url}`,
+                `https://youtube-data-extractor.onrender.com/?url=${url}`,
                 {
                     timeout: 1000 * 20,
                 }
