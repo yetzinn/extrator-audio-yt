@@ -53,7 +53,7 @@ const Home = () => {
                     timeout: 1000 * 20,
                 }
             );
-            const data: ApiData = response.data.data;
+            const data: ApiData = response.data;
             toast.success('Vídeo extraído com sucesso!');
             setIsData(data);
         } catch (error) {
