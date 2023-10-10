@@ -5,7 +5,6 @@ import axios from 'axios';
 
 interface VideoDetails {
     title: string;
-    duration: string;
     thumbnail: string;
 }
 
